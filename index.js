@@ -9,7 +9,7 @@ app.use(express.json());
 
 mongoose
   .connect(
-    "mongodb+srv://api:Mgv3DsML0k0WEUZf@cluster0.w1wifjo.mongodb.net/tarea1?retryWrites=true&w=majority"
+    "se elimina URL de cloud por alerta de Git guardian"
   )
   .then(() => {
     console.log("Connected to database!");
