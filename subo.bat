@@ -18,9 +18,8 @@ echo %datetimef%
 
 git init
 git add .
-git branch -M %datetimef%
+git branch -M main
 git commit -m "initial commit"
 git remote add origin https://github.com/mdeclementi/BootcampTarea1.git
-git push -u origin %datetimef%
 
 pause
