@@ -16,9 +16,10 @@ exports.getAllUsers = async (req, res, next) => {
 
 exports.getUserByNameAndEmail = async (req, res, next) => {
 
-    console.log(req.params);
+    //console.log(req.params);
+    //console.log(req.query);
 
-    const query_result = await Users.find({$or:[{correo: req.params.correo},{edad: req.params.edad}]});
+    const query_result = await Users.find({$or:[{correo: req.query.correo},{edad: req.query.edad}]});
     if (!query_result) {
         res.status(400).json({success: false})
     }
@@ -49,7 +50,7 @@ exports.postCreateUser = async (req, res, next) => {
 
 exports.putUpdateUser = async (req, res, next) => {
 
-    console.log(req.body);
+    //console.log(req.body);
 
     updatedUser = await Users.updateOne({_id: req.params.id}, req.body)
 

@@ -9,7 +9,7 @@ app.use(express.json());
 
 mongoose
   .connect(
-    "mongodb+srv://api:Mgv3DsML0k0WEUZf@cluster0.w1wifjo.mongodb.net/tarea1?retryWrites=true&w=majority"
+    "mongodb://127.0.0.1:27017/tarea1"
   )
   .then(() => {
     console.log("Connected to database!");

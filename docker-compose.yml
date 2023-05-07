@@ -1,0 +1,13 @@
+# Use root/example as user/password credentials
+version: '3.1'
+
+services:
+
+  mongoTarea1V2:
+    image: mongo:latest
+    restart: always
+    volumes:
+        - ./data:/data/db
+        -  ./data/log:/var/log/mongodb/
+    ports:
+        - 27017:27017

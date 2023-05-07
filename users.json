@@ -1,0 +1,43 @@
+[{
+  "_id": {
+    "$oid": "64542b42fe1ff83f53617e87"
+  },
+  "nombre": "jaime",
+  "correo": "jaime@hotmail.com",
+  "edad": 18
+},{
+  "_id": {
+    "$oid": "64542c21fe1ff83f53617e89"
+  },
+  "nombre": "marcus",
+  "correo": "marcus@hotmail.com",
+  "edad": 26
+},{
+  "_id": {
+    "$oid": "64542e1c6b5ac8570691b8b7"
+  },
+  "nombre": "tito",
+  "correo": "tito@hotmail.com",
+  "edad": 26
+},{
+  "_id": {
+    "$oid": "645709805c2ae459619ac641"
+  },
+  "nombre": "javier",
+  "correo": "javier@gmail.com",
+  "edad": 40
+},{
+  "_id": {
+    "$oid": "645709ba5c2ae459619ac646"
+  },
+  "nombre": "alicia",
+  "correo": "alicia@yahoo.com",
+  "edad": 22
+},{
+  "_id": {
+    "$oid": "64570a265a40aa7bd63f2083"
+  },
+  "nombre": "armando",
+  "correo": "armando@inesdi.es",
+  "edad": 22
+}]

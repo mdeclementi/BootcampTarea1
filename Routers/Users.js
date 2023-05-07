@@ -7,7 +7,7 @@ const UsersController = require('../Controllers/Users')
 router.get("", UsersController.getAllUsers);
 
 //GET Informacion de 1 Usuario por 2 parametros
-router.get('/:correo/:edad', UsersController.getUserByNameAndEmail);
+router.get('/paramsCorreoEdad', UsersController.getUserByNameAndEmail);
 
 //POST Nuevo User - Exlusivo para crear datos, no parte de la tarea
 router.post("", UsersController.postCreateUser);
